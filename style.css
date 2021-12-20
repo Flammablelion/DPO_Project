@@ -1,0 +1,24 @@
+body{
+    background-color:rgb(15, 15, 15);
+    /* color:hsl(60,100%,50%) */
+}
+
+hr{
+    border: none; /* Убираем границу */
+    background-color: rgb(184, 184, 184); /* Цвет линии */
+    height: 6px; /* Толщина линии */
+}
+
+
+.vakdiv{
+    transition-duration: 0.3s;
+    transition-property:background-color;
+}
+.vakdiv:hover{
+    background-color:rgb(42, 42, 71);
+}
+
+.logo-img{
+    height: 3em;
+    width: auto;
+}
